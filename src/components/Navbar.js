@@ -7,7 +7,7 @@ class Navbar extends Component {
       <div className="navbar-section">
         <nav class="">
           <a className="logo-position" href="#">
-            <img src={require("./Shannon's logo 3.png")} width="80" height="65" alt=""/>
+            <img src={require("./Llogo.png")} width="180" height="130" alt=""/>
           </a>
         </nav>
       </div>

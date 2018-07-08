@@ -8,20 +8,20 @@ class About extends Component {
 
         <div className="project-sections">
           <h3 className="title-font">About</h3>
-          <p className="p-font">I am a former elementary school teacher turned techie that noticed that I always loved bringing technology into the classroom. So I packed my things and headed to San Francisco to attend DevBootcamp where my passion for coding expanded. I am currently doing part-time work as a Software Engineer at SenYours(an app to connect seniors to their community) and I am a Salesforce Guru at the Columbus Organization. You can check out my latest work history on my <a href="https://www.linkedin.com/in/shannonnolan/" target="_blank" className="link-color">Linkedin</a>. When I'm not learning something new, I love to hike and take pictures or work on my many side projects found on my <a href="https://github.com/shannonnolan17" target="_blank" className="link-color">GitHub</a>. Currently, I am looking for a full-stack(or frontend/ backend) role in San Francisco.</p>
+          <p className="p-font">I solve problems. As a former Legal Assistant with a passion for technology I decided to shoot for the moon and attend DevBootcamp allowing me to dive deeper into the exciting world of the tech industry. A paralegal quickly learns the value of getting things done with hard deadlines, changing specifications, and unforeseen bumps. These skills serve me well and are completely in step with what it takes to be a good developer (along with grit, which I have in spades). Currently I support the world's 6th largest alcohol distributor as they move headquarters but am seeking a forever job (relatively speaking) where I can contribute and grow with a dynamic team. Check out my latest work history on my <a href="https://www.linkedin.com/in/lorraine-hemenway-00/" target="_blank" className="link-color">Linkedin</a>. When I'm not learning something new, I love to hike, yoga, bike, eat, kayak, look at art or work on my many side projects found on my <a href="https://github.com/flash00" target="_blank" className="link-color">GitHub</a>. Currently, I am looking for a full-stack(or frontend/ backend/ solutions/ sales) role in San Francisco.</p>
         </div>
 
-        <h3 className="title-font">Things I've worked on</h3>
+        <h3 className="title-font">Projects I've worked on:</h3>
 
         <div className="project-sections">
-          <h2 className='subtitle'>SENYOURS</h2>
-          <p className="p-font"><a href="https://senyours.io" target="_blank" className="link-color">Senyours</a> connects senior adults with veriﬁed, background checked local citizens in their community. For an affordable rate, our Companions help seniors with their daily activities shopping, laundry, and medical appointments. Companions are also happy to join you on walks, meals, and outings. As a Software Engineer for Senyours, I designed several aspects of the site including the 'How it Works' section and the 'What People are Saying' section as seen below:</p>
-          <img className="container about-pic" src={require('./senyours.png')}/>
-          <img className="container about-pic" src={require('./howworks.png')}/>
+          <h2 className='subtitle'>Bootup</h2>
+          <p className="p-font"><a href="http://dbc-bootup.herokuapp.com/interviews" target="_blank" className="link-color">Bootup</a> Centralized portal for Dev Bootcamp graduates aka "boots". Providing data and resources about tech jobscape and offering a place to share interview experiences, and connect with other developers. As a Software Engineer for Bootup, I designed several aspects of the site including the search feature which I walk through in this <a href="https://www.youtube.com/watch?v=IwfYI6pLuoM" target="_blank" className="link-color">video (to skip introduction start at 0:43)</a>. or as seen below:</p>
+          <img className="container about-pic" src={require('./bootup search.png')}/>
+          <img className="container about-pic" src={require('./bootup interview.png')}/>
         </div>
 
         <div className="project-sections">
-          <h2 className='subtitle'>FOREVER ALOANER</h2>
+          <h2 className='subtitle'>RAK Random Acts of Kindness</h2>
           <p className="p-font"><a href="https://foreveraloaner.herokuapp.com/" target="_blank" className="link-color">Forever Aloaner</a> is a full rails web application that allows users to interact, chat, loan, and borrow items from one another. It's like a Craigslist for borrowing things! You can<a href="https://github.com/shannonnolan17/foreveraloaner-rails" target="_blank" className="link-color"> check it out</a> on GitHub!</p>
           <img className="container about-pic" src={require('./landing-page.png')} />
         </div>

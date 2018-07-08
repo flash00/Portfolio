@@ -7,10 +7,10 @@ class Title extends Component {
     return (
       <div className="">
         <div className="container">
-          <h1 className="title">Hello, my name is Shannon. I am a Developer living in San Francisco, CA.</h1>
+          <h1 className="title">Hello, my name is Lorraine. I am a Developer living in the San Francisco Bay Area.</h1>
         </div>
         <div className="container-flex">
-          <img className="title-pic" src={require('./leaves.jpg')} alt="Photo by Thomas Verbruggen on Unsplash"/>
+          <img className="title-pic" src={require('./hand sun water.jpg')} alt="Photo by Lukas on Pexels"/>
         </div>
       </div>
     );
