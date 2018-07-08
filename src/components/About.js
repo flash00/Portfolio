@@ -22,7 +22,8 @@ class About extends Component {
 
         <div className="project-sections">
           <h2 className='subtitle'>Event_4cast</h2>
-          <p className="p-font">I built and presented this app to a group of developers at Eventbrite. Easily check weather forecast for your event. Submit a city and it searches events or weather forecast using React.js Eventbrite API and Openweathermap API. ☔ You can<a href="http://unsuitable-sock.surge.sh/" target="_blank" className="link-color"> check it out</a> deployed on Surge!</p>
+          <p className="p-font"><a href="http://unsuitable-sock.surge.sh/" target="_blank" className="link-color">Event_4cast </a>
+          I built and presented this app to a group of developers at Eventbrite. Use it to easily check the weather forecast for your event by searching a city name. The app searches local events or weather forecast using React.js, Eventbrite API, Openweathermap API, and is deployed on Surge! ☔ You can<a href="https://github.com/flash00/Event_4cast" target="_blank" className="link-color"> check it out</a> on GitHub!</p>
           <p><img className="container about-pic" src={require('./event4cast home.png')}/></p>
           <p><img className="container about-pic" src={require('./event4cast forecast.png')}/></p>
           <img className="container about-pic" src={require('./event4cast event.png')}/>
@@ -31,7 +32,7 @@ class About extends Component {
         <div className="project-sections">
           <h2 className='subtitle'>RAK Random Acts of Kindness</h2>
           <p className="p-font"><a href="https://foreveraloaner.herokuapp.com/" target="_blank" className="link-color">RAK</a> Random Acts of Kindness (RAK) is a mobile-first web app where trusted organizations and charities can create wish lists of items for prospective donors. Each year charities receive donations that do not meet their specific needs or campaign goals, resulting in millions of dollars' worth of goods going to waste each year. Fundamentally, RAK's goal is to streamline the process of donating goods and minimize waste. Our team used scrum agile development process to implement our tech stack of Ruby on Rails backend and React frontend. You can<a href="https://github.com/flash00/RAK-Frontend" target="_blank" className="link-color"> check it out</a> on GitHub!</p>
-          <img className="container about-pic" src={require('./landing-page.png')} />
+          <img className="container about-pic" src={require('./RAK.png')} />
         </div>
       </div>
     );
