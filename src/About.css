@@ -1,0 +1,46 @@
+.p-font{
+  font-family: 'Playfair Display', serif;
+  color: #494c4e;
+  font-size: 1.5em;
+  line-height: 2em;
+  margin-bottom: 1.5em;
+  -webkit-font-smoothing: antialiased;
+}
+
+.title-font {
+  font-family: 'Tajawal', sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1em;
+  margin-bottom: 1.5em;
+}
+
+.inner-container {
+  max-width: 70em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.link-color {
+  color: #009900;
+}
+
+.subtitle {
+  font-size: 1.75em;
+  line-height: 1em;
+  margin-bottom: 1.25em;
+  color: #004d00;
+  font-family: 'Cuprum', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.about-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+
+.project-sections {
+  margin-bottom: 7em;
+}
